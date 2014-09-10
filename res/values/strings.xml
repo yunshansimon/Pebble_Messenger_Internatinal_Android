@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="MissingTranslation">Pebble Messenger International</string>
+    <string name="notification_title_hint" tools:ignore="MissingTranslation">Modify from Pebble Notify International By Yang Tsao</string>
+    <string name="notification_body_hint" tools:ignore="MissingTranslation">Notification body goes here! You can use any tasker variables such as %NTITLE for the notification title</string>
+    <string name="body" tools:ignore="MissingTranslation">Body</string>
+    <string name="title" tools:ignore="MissingTranslation">Title</string>
+    <string name="mode" tools:ignore="MissingTranslation">Mode</string>
+    <string name="accessibility_description" tools:ignore="MissingTranslation">This allows Pebble Messenger to forward notifications to your pebble!</string>
+    <string name="application_icon" tools:ignore="MissingTranslation">Application Icon</string>
+    <string name="accessability_error" tools:ignore="MissingTranslation">There are two things you first need to do to get this application up and running:\n\n1 - If you want support for international characters (Chinese, Japanese, Hebrew, Korean, Russian, etc) you first need to enable this in the settings menu, on the top right corner (Settings -> Enable unicode notifications) and install the required watchapp (Settings -> Install watchapp).\n\n2 - You have to enable Pebble Messenger International in the Accessibility settings. Tap here to go to the Accessibility settings! </string>
+    <string name="show_only_notifications" tools:ignore="MissingTranslation">Send only notifications</string>
+    <string name="tasker_notice" tools:ignore="MissingTranslation">Please note that the last settings for this application was set by Tasker. Your Tasker settings will overwrite everything you set here.</string>
+    <string name="loading_applications" tools:ignore="MissingTranslation">Loading Applications</string>
+    <string name="fetch_detailed_notifications" tools:ignore="MissingTranslation">Fetch Detailed notifications for apps</string>
+
+    <string-array name="mode_choices" tools:ignore="MissingTranslation">
+        <item>Off</item>
+        <item>Exclude selected apps</item>
+        <item>Include ONLY selected apps</item>
+    </string-array>
+
+    <string name="menu_uncheck_all" tools:ignore="MissingTranslation">Uncheck All</string>
+    <string name="menu_save" tools:ignore="MissingTranslation">Save</string>
+    <string name="menu_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="menu_about" tools:ignore="MissingTranslation">About</string>
+    <string name="menu_donate" tools:ignore="MissingTranslation">Donate</string>
+    <string name="menu_test" tools:ignore="MissingTranslation">Test Pebble</string>
+    <string name="menu_sortby_selected" tools:ignore="MissingTranslation">Sort</string>
+    <string name="title_activity_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="action_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="pref_notif_screen_on" tools:ignore="MissingTranslation">Notify when screen is on</string>
+    <string name="pref_notif_screen_on_summ" tools:ignore="MissingTranslation">If this is set, then notifications will be sent to the Pebble when the phone\'s screen is on.</string>
+    <string name="pref_cat_dnd" tools:ignore="MissingTranslation">Do Not Disturb Options</string>
+    <string name="pref_cat_gen" tools:ignore="MissingTranslation">General Options</string>
+    <string name="pref_notif_only_summ" tools:ignore="MissingTranslation">If disabled Android Toasts will also be sent to your Pebble</string>
+    <string name="pref_notif_only" tools:ignore="MissingTranslation">Notifications only</string>
+    <string name="pref_fetch_notif_extras_summ" tools:ignore="MissingTranslation">Some older or skinned android handsets modify the notification
+        structure. If you are not getting proper notifications or are crashing, turn this off!
+    </string>
+    <string name="pref_fetch_notif_extras" tools:ignore="MissingTranslation">Fetch detailed notifications</string>
+    <string name="pref_dnd_time_enabled_summ" tools:ignore="MissingTranslation">Allows you to prevent any notifications from being sent from Pebble
+        messenger to your Pebble
+    </string>
+    <string name="pref_dnd_time_enabled" tools:ignore="MissingTranslation">Quiet time</string>
+    <string name="pref_dnd_time_before_summ" tools:ignore="MissingTranslation">No notifications before this time</string>
+    <string name="pref_dnd_time_before" tools:ignore="MissingTranslation">Quiet time - Not before</string>
+    <string name="pref_dnd_time_after_summ" tools:ignore="MissingTranslation">No notifications after this time</string>
+    <string name="pref_dnd_time_after" tools:ignore="MissingTranslation">Quiet time - Not after</string>
+    <string name="pref_cat_dnd_quiet" tools:ignore="MissingTranslation">Quiet hours</string>
+    <string name="pref_donate_summ" tools:ignore="MissingTranslation">Visit my website to find more help topic!</string>
+    <string name="pref_notif_unicode" tools:ignore="MissingTranslation">Enable unicode notifications</string>
+    <string name="pref_notif_unicode_summ" tools:ignore="MissingTranslation">Enables full unicode support in notifications sent to the Pebble</string>
+    <string name="pref_notif_timeout">Notification Timeout</string>
+
+    <string-array name="pref_notif_timeout" tools:ignore="MissingTranslation">
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+    </string-array>
+    <string-array name="pref_notif_timeout_values" tools:ignore="MissingTranslation">
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+    </string-array>
+
+    <string name="pref_watchapp" tools:ignore="MissingTranslation">Install watchapp</string>
+    <string name="pref_watchapp_summ" tools:ignore="MissingTranslation">This watchapp is **REQUIRED**! If you have not install "Pebble-Messenger" on your pebble, please tap this button.</string>
+    <string name="pref_donate" tools:ignore="MissingTranslation">Help</string>
+    <string name="pref_about" tools:ignore="MissingTranslation">About</string>
+    <string name="easter_dialog_text" tools:ignore="MissingTranslation">Well, hello there! It seems you found my modified Easter egg! I hope you enjoy this international version of Pebble Notifier and if you have any questions, comments or complaints, feel free to e-mail me at tiago@espinha.pt. Also if you enjoy this application very much, feel free to use that button over there to make a donation!</string>
+    <string name="pref_no_ongoing_notif_summ" tools:ignore="MissingTranslation">Android notifications that have the ongoing flag set are not sent to your
+        Pebble
+    </string>
+    <string name="pref_no_ongoing_notif" tools:ignore="MissingTranslation">Don\'t send ongoing notifications</string>
+    <string name="notif_started_loading" tools:ignore="MissingTranslation">Creating Unicode character database&#8230;</string>
+    <string name="notif_finished_loading" tools:ignore="MissingTranslation">Finished loading font database! Tap to dismiss&#8320;</string>
+    <string name="test_pebble_title" tools:ignore="MissingTranslation">Send a message to your pebble:</string>
+    <string name="test_pebble_body" tools:ignore="MissingTranslation">I love my pebble as my teeth!</string>
+    <string name="test_pebble_send" tools:ignore="MissingTranslation">Send</string>
+    <string name="test_pebble_sendbegin" tools:ignore="MissingTranslation">Sending</string>
+    <string name="test_pebble_sendend" tools:ignore="MissingTranslation">Finish</string>
+    <string name="messages_brief" tools:ignore="MissingTranslation"> messages arrived while pebble is busy. Please check your phone for detail.</string>
+    <string name="test_pebble_phone_number" tools:ignore="MissingTranslation">Phone number:</string>
+    <string name="test_pebble_phone_name" tools:ignore="MissingTranslation">Name:</string>
+	<string name="test_pebble_phone_test" tools:ignore="MissingTranslation">Test Call-Messenger</string>
+	<string name="test_pebble_phone_test_stop" tools:ignore="MissingTranslation">Stop Call-Messenger</string>
+	<string name="pref_call_cat" tools:ignore="MissingTranslation">Call-Messenger Options</string>
+	<string name="pref_call_cat_summ" tools:ignore="MissingTranslation">The options to setting the call-messenger on the pebble watch</string>
+	<string name="pref_call_enable" tools:ignore="MissingTranslation">Use Call-Messenger</string>
+	<string name="pref_call_enable_summ" tools:ignore="MissingTranslation">Check it if you want to use call-messenger on the pebble. It will bring remote phone control and unicode name display when the call is coming.</string>
+	<string name="pref_call_quiet" tools:ignore="MissingTranslation">Use the same Quiet Setting as Pebble-Messenger</string>
+	<string name="pref_call_quiet_summ" tools:ignore="MissingTranslation">If you have set the quiet options above, and want the call messenger keep quiet in same time, check it.</string>
+	<string name="pref_call_sms_short" tools:ignore="MissingTranslation">SMS text content for short press</string>
+	<string name="pref_call_sms_short_summ" tools:ignore="MissingTranslation">When the phone call is coming, press middle button of pebble to hang off the call and send a short message to explain you are busy.</string>
+	<string name="pref_call_sms_long" tools:ignore="MissingTranslation">SMS text content for long press</string>
+	<string name="pref_call_sms_long_summ" tools:ignore="MissingTranslation">You can setting another short message, and send it just press middle button of pebble for 0.5 sec</string>
+	<string name="pref_call_sms_short_default" tools:ignore="MissingTranslation">Sorry! I am busy and call you later.</string>
+	<string name="pref_call_sms_long_default" tools:ignore="MissingTranslation">Sorry! I am in a meeting, Send me message or waiting for my call back.</string>
+	<string name="pref_call_app" tools:ignore="MissingTranslation">Install Call-Messenger</string>
+	<string name="pref_call_app_summ" tools:ignore="MissingTranslation">Press this button to guide to Pebble Market to Install Call-Messenger on your Pebble.</string>
+	<string name="notificationservice_unknownperson" tools:ignore="MissingTranslation">Unknown Person</string>
+	</resources>

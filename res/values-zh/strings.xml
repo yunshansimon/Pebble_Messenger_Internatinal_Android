@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="MissingTranslation">Pebble信使</string>
+    <string name="notification_title_hint" tools:ignore="MissingTranslation">由曹阳修改自Pebble Notify International</string>
+    <string name="notification_body_hint" tools:ignore="MissingTranslation">Notification body goes here! You can use any tasker variables such as %NTITLE for the notification title</string>
+    <string name="body" tools:ignore="MissingTranslation">主体</string>
+    <string name="title" tools:ignore="MissingTranslation">标题</string>
+    <string name="mode" tools:ignore="MissingTranslation">方式</string>
+    <string name="accessibility_description" tools:ignore="MissingTranslation">本项允许程序向你的PEBBLE手表发送通知短信！</string>
+    <string name="application_icon" tools:ignore="MissingTranslation">图标</string>
+    <string name="accessability_error" tools:ignore="MissingTranslation"> 在程序能够正常工作以前，你必须完成两项设置：\n\n一、如果你希望在PEBBLE手表上显示中文、日文、韩文等其他字符，打开右上角的“设置”按钮，选中选项：允许国际文字消息。\n\n二、你必需在手机的“设置”中找到“辅助功能”，点击（辅助功能——服务——Pebble信使），启用它。\n\n最后要注意，如果你使用了启动管理器（类似手机360或腾讯管家等）请允许Pebble信使自启动，它只会做一件事：忠实将消息传递给手表。</string>
+    <string name="show_only_notifications" tools:ignore="MissingTranslation">仅转发通知列表中的消息</string>
+    <string name="tasker_notice" tools:ignore="MissingTranslation">请注意，具体发送那些消息，最终在任务列表中设定。</string>
+    <string name="loading_applications" tools:ignore="MissingTranslation">紧张准备中</string>
+    <string name="fetch_detailed_notifications" tools:ignore="MissingTranslation">显示详细的通知信息</string>
+
+    <string-array name="mode_choices" tools:ignore="MissingTranslation">
+        <item>关闭转发</item>
+        <item>选中不发</item>
+        <item>选中转发</item>
+    </string-array>
+
+    <string name="menu_uncheck_all" tools:ignore="MissingTranslation">清除选项</string>
+    <string name="menu_save" tools:ignore="MissingTranslation">保存</string>
+    <string name="menu_settings" tools:ignore="MissingTranslation">设置</string>
+    <string name="menu_about" tools:ignore="MissingTranslation">关于</string>
+    <string name="menu_donate" tools:ignore="MissingTranslation">捐赠</string>
+    <string name="menu_test" tools:ignore="MissingTranslation">测试Pebble</string>
+    <string name="menu_sortby_selected" tools:ignore="MissingTranslation">排序</string>
+    <string name="title_activity_settings" tools:ignore="MissingTranslation">设置</string>
+    <string name="action_settings" tools:ignore="MissingTranslation">设置</string>
+    <string name="pref_notif_screen_on" tools:ignore="MissingTranslation">屏幕打开时也转发</string>
+    <string name="pref_notif_screen_on_summ" tools:ignore="MissingTranslation">如果此项打开，将在手机屏幕点亮的时候也转发消息。个人建议不用打开此选项。</string>
+    <string name="pref_cat_dnd" tools:ignore="MissingTranslation">安静设置</string>
+    <string name="pref_cat_gen" tools:ignore="MissingTranslation">通用设置</string>
+    <string name="pref_notif_only_summ" tools:ignore="MissingTranslation">如果关闭这个选项，手机中的小提示也会转发到你的手表上，多烦人呀。</string>
+    <string name="pref_notif_only" tools:ignore="MissingTranslation">仅转发通知栏内容</string>
+    <string name="pref_fetch_notif_extras_summ" tools:ignore="MissingTranslation">一些旧系统修改了通知栏内的信息结构，如果你无法获得正确的通知，或者程序崩溃，请关闭此选项！</string>
+    <string name="pref_fetch_notif_extras" tools:ignore="MissingTranslation">转发详细的通知栏消息</string>
+    <string name="pref_dnd_time_enabled_summ" tools:ignore="MissingTranslation">允许设置pebble信使在特定的时间停止转发，让你睡个好觉</string>
+    <string name="pref_dnd_time_enabled" tools:ignore="MissingTranslation">安静设置</string>
+    <string name="pref_dnd_time_before_summ" tools:ignore="MissingTranslation">此时间以前保持安静</string>
+    <string name="pref_dnd_time_before" tools:ignore="MissingTranslation">安静到几点</string>
+    <string name="pref_dnd_time_after_summ" tools:ignore="MissingTranslation">此时间以后保持安静</string>
+    <string name="pref_dnd_time_after" tools:ignore="MissingTranslation">几点后安静</string>
+    <string name="pref_cat_dnd_quiet" tools:ignore="MissingTranslation">安静时段</string>
+    <string name="pref_donate_summ" tools:ignore="MissingTranslation">到我的网站去寻求更多帮助和使用技巧吧！</string>
+    <string name="pref_notif_unicode" tools:ignore="MissingTranslation">允许国际文字消息</string>
+    <string name="pref_notif_unicode_summ" tools:ignore="MissingTranslation">打开它你就能在手表上看到中国字了，很亲切吧</string>
+    <string name="pref_notif_timeout">想让信息在手表上显示多久</string>
+    <string-array name="pref_notif_timeout" tools:ignore="MissingTranslation">
+        <item>5  秒 青  蛙</item>
+        <item>10 秒 正常人</item>
+        <item>20 秒 老花眼</item>
+    </string-array>
+    <string-array name="pref_notif_timeout_values" tools:ignore="MissingTranslation">
+        <item>5000</item>
+        <item>10000</item>
+        <item>20000</item>
+    </string-array>
+    <string name="pref_watchapp" tools:ignore="MissingTranslation">安装手表上的接收程序</string>
+    <string name="pref_watchapp_summ" tools:ignore="MissingTranslation">如果你的手表没有安装Pebble-Messager程序，是不可能显示中文的，请点击此按钮安装pebble手表程序。</string>
+    <string name="pref_donate" tools:ignore="MissingTranslation">帮助</string>
+    <string name="pref_about" tools:ignore="MissingTranslation">关于</string>
+    <string name="easter_dialog_text" tools:ignore="MissingTranslation">Well, hello there! It seems you found my modified Easter egg! I hope you enjoy this international version of Pebble Notifier and if you have any questions, comments or complaints, feel free to e-mail me at tiago@espinha.pt. Also if you enjoy this application very much, feel free to use that button over there to make a donation!
+    </string>
+    <string name="pref_no_ongoing_notif_summ" tools:ignore="MissingTranslation">Android那些持续发送的消息就不传递给手表了，比如下载、程序升级、电话什么的。
+    </string>
+    <string name="pref_no_ongoing_notif" tools:ignore="MissingTranslation">不转发持续性消息</string>
+	<string name="notif_started_loading" tools:ignore="MissingTranslation">Creating Unicode character database&#8230;</string>
+	<string name="notif_finished_loading" tools:ignore="MissingTranslation">Finished loading font database! Tap to dismiss&#8320;</string>
+	<string name="test_pebble_title" tools:ignore="MissingTranslation">给你的pebble发条消息:</string>
+	<string name="test_pebble_body" tools:ignore="MissingTranslation">我爱我的pebble就像爱大米！</string>
+	<string name="test_pebble_send" tools:ignore="MissingTranslation">发送</string>
+	<string name="test_pebble_sendbegin" tools:ignore="MissingTranslation">开始发送</string>
+	<string name="test_pebble_sendend" tools:ignore="MissingTranslation">发送完成</string>
+	<string name="messages_brief" tools:ignore="MissingTranslation">条信息来不及发到Pebble上,请您查看手机!</string>
+	<string name="test_pebble_phone_number">电话号码:</string>
+    <string name="test_pebble_phone_name">姓名:</string>
+	<string name="test_pebble_phone_test">测试来电</string>
+	<string name="test_pebble_phone_test_stop">停止测试</string>
+	<string name="pref_call_cat" tools:ignore="MissingTranslation">Call-Messenger设置</string>
+	<string name="pref_call_cat_summ" tools:ignore="MissingTranslation">用于设定您Pebble手表上安装的Call-Messenger的功能</string>
+	<string name="pref_call_enable" tools:ignore="MissingTranslation">使用Call-Messenger</string>
+	<string name="pref_call_enable_summ" tools:ignore="MissingTranslation">如果您在手表上安装了Call-Messenger请选中它，否则手表上的程序不工作. 它可以让您的pebble手表控制接电话和挂断电话，还能显示中文姓名。</string>
+	<string name="pref_call_quiet" tools:ignore="MissingTranslation">使用上面Pebble-Messenger相同的安静设置</string>
+	<string name="pref_call_quiet_summ" tools:ignore="MissingTranslation">如果您在上面进行了安静设置，选中此选项, Call-Messenger将在相同的时间保持安静。</string>
+	<string name="pref_call_sms_short" tools:ignore="MissingTranslation">短按短信设置</string>
+	<string name="pref_call_sms_short_summ" tools:ignore="MissingTranslation">来电时，您可以轻按pebble手表中间的按键以挂断电话，并向对方发送一条短消息。</string>
+	<string name="pref_call_sms_long" tools:ignore="MissingTranslation">长按短信设置</string>
+	<string name="pref_call_sms_long_summ" tools:ignore="MissingTranslation">来电时，您可以按pebble手表中间的按键0.5秒以上，以挂断电话，并向对方发送另外一条消息。</string>
+	<string name="pref_call_sms_short_default" tools:ignore="MissingTranslation">对不起，正在忙，稍后回复！</string>
+	<string name="pref_call_sms_long_default" tools:ignore="MissingTranslation">对不起，正在开会，不方便接听，急事请发短信，或等我稍后回复！</string>
+	<string name="pref_call_app" tools:ignore="MissingTranslation">安装Call-Messenger</string>
+	<string name="pref_call_app_summ" tools:ignore="MissingTranslation">点击将导航到Pebble市场，以安装Call-Messenger到您的Pebble手表。</string>
+	<string name="notificationservice_unknownperson" tools:ignore="MissingTranslation">陌生人</string>
+</resources>

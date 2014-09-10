@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/btnUncheckAll" android:title="@string/menu_uncheck_all"></item>
+    <item android:id="@+id/btnSave" android:title="@string/menu_save"></item>
+    <item android:id="@+id/btnSettings"
+          android:showAsAction="ifRoom"
+          android:title="@string/menu_settings"></item>
+    
+    <item android:id="@+id/BtnTest" android:title="@string/menu_test"></item><item android:id="@+id/btnSortBySelected" android:title="@string/menu_sortby_selected"></item>
+    <item android:id="@+id/btnAbout" android:title="@string/menu_about" android:visible="false"></item>
+    <item android:id="@+id/btnDonate" android:title="@string/menu_donate" android:enabled="false" android:visible="false"></item>
+   
+</menu>
